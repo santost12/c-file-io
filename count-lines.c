@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
     if (argc != 2)
     {
         printf("Error: Too many or too few arguments\n");
-        printf("Example: count-lines.exe my-file.txt\n");
+        printf("Example: %s my-file.txt\n", argv[0]);
         return -1;
     }
 
