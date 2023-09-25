@@ -64,7 +64,7 @@ int main(int argc, char *argv[])
     if (argc != 2)
     {
         printf("Error: Too many or too few arguments\n");
-        printf("Example: flip-bits.exe test.txt\n");
+        printf("Example: %s test.txt\n", argv[0]);
         return -1;
     }
 
