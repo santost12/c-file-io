@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
 {
     if (argc != 2) {
         printf("Error: Too many or too few arguments\n");
-        printf("Example: check-png.exe test.png\n");
+        printf("Example: %s test.png\n", argv[0]);
         return -1;
     }
 
